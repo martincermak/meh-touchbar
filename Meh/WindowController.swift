@@ -37,7 +37,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         
         return touchBar
     }
-    
+
     @available(OSX 10.12.2, *)
     func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItem.Identifier) -> NSTouchBarItem? {
         let touchBarItem    = NSCustomTouchBarItem(identifier: identifier)
